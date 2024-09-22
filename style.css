@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(239, 239, 239);
+}
+header{
+    background-image: url("portfoliomainimg.jpg");
+    height:600px;
+    background-size: cover;
+}
+.navbar{
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    color:white;
+    
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: 50px;
+    
+}
+.navbar ul{
+    display: flex;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar h1{
+    color:red;
+    margin-left: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 5px black;
+  cursor: pointer;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.info{
+    width:500px;
+    height: 1000px;
+    color:white;
+    display: flex;
+   margin: 70px;
+   padding-top: 50px;
+   text-align: center;
+  
+}
+.info p{
+    font-weight: 900;
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 30px;
+    
+}
+/* about section */
+.about{
+    background-color:white;
+    padding: 30px;
+    margin-top: 30px;
+    height: 300px;
+}
+.paradiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about p{
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    
+}
+.about h3{
+    color:orangered;
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px red, 0 0 2px pink;
+    cursor: pointer;
+}
+.paradiv img{
+    height: 200px;
+    width: 200px;
+    float:right;
+    padding: 20px;
+    background-color: black;
+}
+/* skills section*/
+.skill{
+    background-color:white;
+    padding: 30px;
+    margin-top: 30px;
+    height: 400px;
+}
+.skill h3{
+    color:orangered;
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px red, 0 0 2px pink;
+    cursor: pointer;
+}
+.skill p{
+    padding:20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.right{
+    float: right;
+    padding: 10px;
+}
+.left{
+    display: inline-block;
+}
+/* Project section  */
+.projectheading{
+    background-color:white;
+    padding: 30px;
+    margin-top: 30px;
+    height: 600px;
+   
+}
+.projectheading h3{
+    color:orangered;
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px red, 0 0 2px pink;
+    cursor: pointer;
+}
+.projectdiv{
+    height:500px;
+    width:100%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.Project{
+   background-color: white;
+    height: 400px;
+    width: 400px;
+    
+}
+.Project h2{
+    padding:10px;
+    text-shadow: 2px 3px 5px black, 0 0 2px blue;
+    text-align: center;
+    cursor: pointer;
+}
+.Project img{
+    height: 200px;
+    width:200px;
+    border:5px ridge black;
+    margin: 20px;
+    margin-left: 90px;
+    cursor: pointer;
+    transition: transform 0.5 ease;
+}
+.Project img:hover{
+    transform:scale(1.2);
+}
+.btn{
+    --glow-color: rgb(176, 180, 255);
+    --glow-spread-color: rgba(123, 127, 255, 0.781);
+    --enhanced-glow-color: rgb(206, 213, 255);
+    --btn-color: rgb(24, 58, 184);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+    inset 0 0 0.25em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:var(--btn-color);
+    background-color: var(--glow-color);
+}
+/* ResumeSection  */
+.ResumeSection{
+    background-color:white;
+    padding: 30px;
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Resume{
+    align-content: center;
+    cursor: pointer;
+}
+.ResumeSection div{
+    width: 50%;
+}
+.ResumeSection h3{
+    color:orangered;
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px red, 0 0 2px pink;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.Contact img{
+    height: 30px;
+    width: 30px;
+   margin-left: 50px;
+    margin-bottom: 40px ;
+    transition: transform 0.5 ease;
+}
+.Contact img:hover{
+    transform: scale(1.2);
+}
+.div1{
+    display: inline-block;
+}
+.div2{
+    height: 200px;
+    width: 25%;
+    float:right;
+    
+}
+.Contact a{
+    font-size:x-large;
+    font-weight: 600;
+    padding-left:20px;
+    text-align:start;
+    position:absolute;
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+}
+.Resume img{
+    height: 150px;
+    width: 150px;
+    margin-left: 300px;
+    border: 3px solid black;
+    box-shadow: 0 0  1rem rgb(99, 96, 97),0 0 1rem 0 black;
+    transition:opacity 0.5s ease;
+}
+.Resume img:hover{
+    opacity: 0.5;
+}
+/* SuggestionSection  */
+.suggestionsection{
+    background-color:white;
+    padding-top: 30px;
+    margin-top: 30px;
+    height: 400px;
+    text-align: center;
+    
+}
+.suggestionsection h3{
+    color:orangered;
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px red, 0 0 2px pink;
+    cursor: pointer;
+    text-align: center;
+}
+.suggestionsection h4{
+    color: orangered;
+    text-shadow: 2px 2px 2px red, 0 0 2px pink;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: large;
+}
+.suggestionsection input{
+    margin:20px;
+    height: 30px;
+    width: 300px;
+    font-size: large;
+}
+.suggestionsection textarea{
+    margin:20px;
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+}
+.suggestionsection button{
+    --glow-color: rgb(239, 152, 60);
+    --glow-spread-color: rgba(233, 44, 37, 0.781);
+    --enhanced-glow-color: rgb(181, 144, 69);
+    --btn-color: rgb(184, 43, 24);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.2em var(--glow-color);
+    text-shadow: 0 0 0.25em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.suggestionsection button:hover{
+    color:var(--btn-color);
+    background-color: var(--glow-color);
+}
+.footer{
+    background-color: black;
+    height: 40px;
+    position:relative;
+   margin-top: 20px;
+   color:white;
+   font-size: 0.9rem;
+   text-align: center;
+   padding-top: 5px;
+}
+.view{
+    margin-left: 350px;
+    color:rgb(3, 3, 104);
+    background-color: rgb(240, 105, 9);
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 0.1rem 0.1rem 0.2rem rgb(255, 17, 0),inset 0 0 0.2rem rgb(205, 98, 26);
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    transition:ease-in-out;
+}
+.view:hover{
+    color:white;
+    background-color: rgb(245, 11, 11);
+    transition: all;
+}
+
+
