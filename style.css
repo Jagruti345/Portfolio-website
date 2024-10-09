@@ -344,5 +344,357 @@ ul li a:hover{
     background-color: rgb(245, 11, 11);
     transition: all;
 }
+@media screen and (max-width: 1285px){
+    header{
+        height:500px;
+        background-size: cover;
+        width:100%;
+    }
+    .navbar{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar ul li{
+        margin: 7px;
+    }
+    ul li a{
+        font-size: 20px;
+    }
+    .navbar h1{
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .info{
+        width:300px;
+        height: 700px;
+       margin: 30px;
+       padding-top: 30px;
+    }
+    .info p{
+        font-weight: 700;
+        font-size: medium;
+        word-spacing: 3px;
+        line-height: 20px;
+        
+    }
+    .about{
+        padding: 10px;
+        margin-top: 20px;
+        height: 400px;
+    }
+    .about p{
+        padding: 20px;
+        font-size: 25px;
+        
+    }
+    .about h3{
+        font-size: 30px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+    }
+    .paradiv img{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+    .skill{
+        padding: 10px;
+        margin-top: 20px;
+        height: 300px;
+    }
+    .skill h3{
+        font-size: 30px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+    }
+    .skill p{
+        padding:10px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left:0px;
+    }
+    .right{
+        padding: 10px;
+    }
+    .skill img{
+        width: 300px;
+        padding-left:20px;
+    }
+    .projectheading{
+        padding-top: 10px;
+        margin-top: 20px;
+        height: 400px;
+        background-color: white;
+    }
+    .projectheading h3{
+        font-size: 30px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+    }
+    .projectdiv{
+        height:250px;
+        width:100%;
+        margin-top: 10px;
+        float: top;
+        display: flex;
+        align-items: top;
+    }
+    .Project{
+        height: 250px;
+        width: 100%;
+        
+    }
+    .Project h2{
+        padding:10px;
+        font-size: 20px;
+    }
+    .Project img{
+        height: 150px;
+        width:150px;
+        border:5px ridge black;
+        margin: 10px;
+        margin-left: 70px;
+        display: inline;
+    }
+    .btn{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .ResumeSection{
+        padding: 20px;
+        margin-top: 10px;
+        height: 700px;
+    }
+    .ResumeSection h3{
+        font-size: 20px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+        margin-bottom: 20px;
+        
+    }
+    .ResumeSection div{
+        width: 100%;
+    }
+    .Contact{
+        position:absolute;
+        left: 0;
+        right: 0;
+        width:400px;
+    }
+    .Contact img{
+        height: 30px;
+        width: 30px;
+       margin-left: 20px;
+        margin-bottom: 20px ;
+    }
+    .div1{
+        height: 170px;
+        float:left;
 
+    }
+    .div2{
+        height: 100px;
+        float:right;
+    }
+    .Contact a{
+        font-size:large;
+        font-weight: 600;
+        padding-left:10px;
+    }
+    .Resume{
+        float: left;
+        margin-top: 350px;
+        width: 100%;
+        height:300px
+    }
+    .Resume img{
+        height: 200px;
+        width: 200px;
+        margin-left: 400px;
+    }
+    .suggestionsection{
+        height: 400px;
+    }
 
+    .view{
+        margin-left: 0px;
+    }
+}
+@media (max-width:700px){
+    header{
+        height:255px;
+        background-size: cover;
+        width:100%;
+    }
+    .navbar{
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar ul li{
+        margin: 3px;
+    }
+    ul li a{
+        font-size: 10px;
+    }
+    .navbar h1{
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .info{
+        width:300px;
+        height: 700px;
+       margin: 30px;
+       padding-top: 30px;
+    }
+    .info p{
+        font-weight: 600;
+        font-size: medium;
+        word-spacing: 3px;
+        line-height: 20px;
+        
+    }
+    .about{
+        padding: 10px;
+        margin-top: 20px;
+        height: 400px;
+    }
+    .about p{
+        padding: 20px;
+        font-size: 15px;
+        
+    }
+    .about h3{
+        font-size: 20px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+    }
+    .paradiv img{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+    .skill{
+        padding: 10px;
+        margin-top: 20px;
+        height: 400px;
+    }
+    .skill h3{
+        font-size: 20px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+    }
+    .skill p{
+        padding:10px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .right{
+        float: left;
+        padding: 5px;
+    }
+    .skill img{
+        width: 300px;
+    }
+    .projectheading{
+        padding:0;
+        padding-top: 10px;
+        margin-top: 20px;
+        height: 400px;
+        background-color: white;
+    }
+    .projectheading h3{
+        font-size: 20px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+    }
+    .projectdiv{
+        margin:0;
+        height:250px;
+        width:100%;
+        margin-top: 10px;
+        float: top;
+        display: flex;
+        align-items: top;
+    }
+    .Project{
+        height: 250px;
+        width: 100%;
+        
+    }
+    .Project h2{
+        padding:10px;
+        font-size: 15px;
+    }
+    .Project img{
+        height: 100px;
+        width:100px;
+        border:5px ridge black;
+        margin: 3px;
+        margin-left: 0;
+        display: inline;
+    }
+    .btn{
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .ResumeSection{
+        padding: 20px;
+        margin-top: 10px;
+        height: 700px;
+    }
+    .ResumeSection h3{
+        font-size: 20px;
+        padding-top: 10px;
+        text-shadow: 1px 2px 2px red, 0 0 2px pink;
+        margin-bottom: 20px;
+        
+    }
+    .ResumeSection div{
+        width: 100%;
+    }
+    .Contact{
+        position:absolute;
+        left: 0;
+        right: 0;
+        width:400px;
+    }
+    .Contact img{
+        height: 30px;
+        width: 30px;
+       margin-left: 20px;
+        margin-bottom: 20px ;
+    }
+    .div1{
+        height: 170px;
+        float:left;
+    }
+    .div2{
+        height: 100px;
+        float:right;
+    }
+    .Contact a{
+        font-size:medium;
+        font-weight: 400;
+        padding-left:10px;
+    }
+    .Resume{
+        margin-left: 70px;
+        width: 100%;
+    }
+    .Resume img{
+        height: 150px;
+        width: 150px;
+        margin-left: 40px;
+        margin-left:0;
+    }
+    .suggestionsection{
+        height: 500px;
+    }
+
+    .view{
+        margin-left: 150px;
+    }
+};
